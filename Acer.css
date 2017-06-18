@@ -1,0 +1,62 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	padding: 10px;
+}
+
+nav li h2 {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.firstpart h2 {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+ul {
+	list-style:none;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.slider {
+	width: 100%;
+}
+
+.secondpart {
+	width: 100%;
+}
+
+.pics2 {
+	width: 100%;
+	display: flex;
+}
+
+.pics2 .img {
+   width: 25%;
+}
+
+.bloc {
+	background-color: black;
+	width: 25%;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	color:white;
+	background-color: grey;
+	padding-right: 40px;
+}
+
+.info ul {
+	padding-top: 20px;
+}
