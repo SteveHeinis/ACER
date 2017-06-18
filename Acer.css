@@ -60,3 +60,14 @@ ul {
 .info ul {
 	padding-top: 20px;
 }
+
+.mentions {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mentions img {
+	width: 100px;
+}
