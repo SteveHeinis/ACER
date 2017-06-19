@@ -61,6 +61,11 @@ ul {
 	padding-top: 20px;
 }
 
+.abo {
+	background-color: grey;
+	height: 100%;
+}
+
 .mentions {
 	background-color: black;
 	display: flex;
@@ -70,4 +75,23 @@ ul {
 
 .mentions img {
 	width: 100px;
+}
+
+.icones img {
+	width: 40px;
+}
+
+.aboicones {
+	display: flex;
+	background-color: grey;
+}
+
+.abo {
+	margin-left: 2%;
+}
+
+.icones {
+	margin-left: 30%;
+	margin-top: 2%;
+	background-color: grey;
 }
