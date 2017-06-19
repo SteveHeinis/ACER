@@ -3,7 +3,30 @@ html, body {
 	padding: 0;
 }
 
-nav li {
+header {
+	margin: 0;
+	padding: 0;
+}
+
+.horizontalbar {
+	display: flex;
+}
+
+.leftmenu {
+    margin-right: 25%;
+    margin-top: 1%;
+ }
+
+ .rightmenu {
+ 	margin-top: 1%;
+ }
+
+.leftmenu li {
+	display: inline;
+	padding: 10px;
+}
+
+.rightmenu li {
 	display: inline;
 	padding: 10px;
 }
@@ -68,13 +91,17 @@ ul {
 
 .mentions {
 	background-color: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	height: 100%;
 }
 
 .mentions img {
-	width: 100px;
+	margin-left: 45%;
+	margin-top: 1%;
+}
+
+.mentionstxt {
+	display: flex;
+	justify-content: space-between;
 }
 
 .icones img {
